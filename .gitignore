@@ -1,0 +1,41 @@
+# Node/Vite
+node_modules/
+dist/
+.vite/
+
+# Build outputs
+*.log
+*.tmp
+*.cache
+.cache/
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# PHP
+*.php~           # backup files from some editors
+
+# OS Specific
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# IDEs/Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Config files 
+*.ini
+*.env
+!example.env     # keep a template if needed
+
+# Mac/Linux swap files
+*.swp
+*.swo
+
+# Git backup
+*.orig
