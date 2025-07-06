@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: inherit;
   text-decoration: inherit;
 }
 a:hover {
@@ -24,11 +24,36 @@ a:hover {
 
 body {
   margin: 0;
+  /* This centers vertically and horizontally
+  good for login and forms 
   display: flex;
-  place-items: center;
+  place-items: center; 
+  Below is the fix for just horizontal centering */
+  display:flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* */
   min-width: 320px;
   min-height: 100vh;
+  background-color:cornsilk;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+/*  DarkMode Edits  */
+body[data-theme="dark"] {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+body[data-theme="dark"] button {
+  color: white;
+}
+body[data-theme="dark"] a {
+  color: white;
+}
+body[data-theme="dark"] div {
+  color: white;
+  background-color: #242424;  
+}
+
 
 h1 {
   font-size: 3.2em;
