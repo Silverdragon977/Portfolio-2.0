@@ -33,7 +33,6 @@ dist/
 *.tmp
 *.cache
 .cache/
-.DS_Store
 .env
 .env.*
 .env.local

@@ -11,9 +11,9 @@ function App() {
 
  return (
     <>
-    
+    <h1>Hello</h1>
     {<Navbar />}
-    {<img src="../public/banner.png" className="img-fluid border-lg border-primary rounded shadow-lg" alt="Image Did not load properly"></img>}
+    {<img src="/banner.png" className="img-fluid border-lg border-primary rounded shadow-lg" alt="Image Did not load properly"></img>}
     {
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
         <ul className='navbar-nav'> 
           {/* Navigation link items */}
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" href="/public/index.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Portfolio
             </a>
             <ul className="dropdown-menu">
